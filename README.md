@@ -333,5 +333,3 @@ Project Link: [https://github.com/GeorgeKava/fitfusion-mobile](https://github.co
 - [ ] Progress photo comparisons with AI analysis
 
 ---
-
-**Made with ❤️ and AI**
