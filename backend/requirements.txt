@@ -1,0 +1,14 @@
+# Simple production requirements without problematic dependencies
+Flask==3.1.2
+flask-cors
+openai>=1.6.0
+chromadb==1.3.5
+bcrypt>=4.0.0
+PyJWT>=2.10.0
+python-dotenv
+anthropic
+requests
+Pillow
+werkzeug
+gunicorn
+Flask-Limiter>=4.1.1

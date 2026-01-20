@@ -1,0 +1,14 @@
+# Production Requirements
+# Install: pip install -r requirements-production.txt
+
+# WSGI Server for Production
+gunicorn==21.2.0
+
+# All base requirements
+-r requirements.txt
+
+# Production monitoring and performance
+gevent==23.9.1  # Async workers for better performance
+
+# Security
+cryptography>=41.0.0  # Ensure latest security patches

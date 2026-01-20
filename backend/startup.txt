@@ -1,0 +1,4 @@
+# Azure App Service configuration
+# Specifies the startup command
+
+gunicorn -c gunicorn.conf.py app:app

@@ -1,0 +1,5 @@
+# Vector Store Dependencies (App Store Compatible)
+# All processing happens locally on your backend server
+
+chromadb==0.4.22
+sentence-transformers==2.3.1

@@ -1,0 +1,5 @@
+# .deployment file for Azure App Service
+# This tells Azure to deploy from the backend directory
+
+[config]
+SCM_DO_BUILD_DURING_DEPLOYMENT=true

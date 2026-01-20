@@ -1,0 +1,81 @@
+/* FitFusion AI Logo Styles */
+.fitfusion-logo {
+  max-height: 32px;
+  width: auto;
+  transition: transform 0.2s ease;
+}
+
+.fitfusion-logo:hover {
+  transform: scale(1.05);
+}
+
+.fitfusion-logo-large {
+  max-height: 200px;
+  width: auto;
+  max-width: 400px;
+  min-height: 150px;
+}
+
+.fitfusion-logo-medium {
+  max-height: 180px;
+  width: auto;
+  max-width: 350px;
+  min-height: 120px;
+}
+
+/* Responsive logo adjustments */
+@media (max-width: 768px) {
+  .fitfusion-logo-large {
+    max-height: 140px;
+    max-width: 300px;
+    min-height: 100px;
+  }
+  
+  .fitfusion-logo-medium {
+    max-height: 120px;
+    max-width: 280px;
+    min-height: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .fitfusion-logo-large {
+    max-height: 100px;
+    max-width: 250px;
+    min-height: 80px;
+  }
+  
+  .fitfusion-logo-medium {
+    max-height: 90px;
+    max-width: 220px;
+    min-height: 70px;
+  }
+}
+
+/* NavBar brand styling */
+.navbar-brand {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+/* Ensure logo doesn't break navbar alignment */
+.navbar-brand img {
+  vertical-align: middle;
+}
+
+/* Login/Registration page logo styling */
+.logo-container {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+.logo-container img {
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+}
+
+/* Add some breathing room around large logos */
+.fitfusion-logo-large,
+.fitfusion-logo-medium {
+  display: block;
+  margin: 0 auto;
+}

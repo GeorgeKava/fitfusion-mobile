@@ -1,0 +1,124 @@
+# Environment variables (CRITICAL - Never commit these!)
+backend/.env
+frontend/.env
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+diagrams/
+# Architecture diagrams (generated documentation)
+FitnessAdvisor_System_Architecture.md
+WeeklyPlan_Architecture.md
+VoiceChat_Architecture.md
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Production builds
+frontend/build/
+frontend/dist/
+backend/dist/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/__pycache__/
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+.pytest_cache/
+
+# User uploaded content & temp files
+backend/captured_images/
+captured_images/
+uploads/
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Database and storage files
+*.db
+*.sqlite
+*.sqlite3
+__azurite_db_table__.json
+AzuriteConfig/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Test and data files
+backend/data.csv
+backend/megaGymDataset.csv
+qa.json
+*.csv
+
+# Documentation and temp files (can be regenerated)
+MCP_RAG_Architecture_Diagram.md
+FitnessAdvisor_Architecture_Diagram.md
+setup_mcp.sh
+
+# Fixed/backup files
+*.fixed
+*.new
+*.backup
+frontend/src/components/ProgressPage.jsx.fixed
+frontend/src/components/ProgressPage.jsx.new
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# Azure and API Keys (CRITICAL)
+azure_credentials.json
+api_keys.json
+*.pem
+*.key
+config/secrets.py
+backend/test_plan.py
+FitnessAdvisor_System_Architecture.md
+FitnessAdvisor_Technical_Flow.md
+FitnessAdvisor_Visual_Architecture.md
+PROFILE_AUTOFILL_FIX.md
+VoiceChatREADME.md
+AzuriteConfig
+backend/test_plan.py
+backend/test_endpoints.py
+backend/test_food_system.py
+backend/test_food.py
+backend/test_function_calls.py
+backend/test_handlers.py
+backend/test_plan.py
+backend/test_profile_data.py
+backend/test_azure_openai.py
